@@ -23,7 +23,6 @@ def scrape():
     mars_data = scrape_mars.scrape_mars_news()
     mars_data = scrape_mars.scrape_mars_image()
     mars_f = scrape_mars.scrape_mars_facts()
-    mars_w = scrape_mars.scrape_mars_weather()
     mars_data = scrape_mars.scrape_mars_hemispheres()
     mars_info.update({}, mars_data, upsert=True)
 
